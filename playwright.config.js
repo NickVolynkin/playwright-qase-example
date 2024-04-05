@@ -7,10 +7,15 @@ const config = {
     ['list'],
     ['playwright-qase-reporter',
       {
-        projectCode: 'PWR',
-        runComplete: true,
+        testops: {
+          project: 'PWR',
+          uploadAttachments: true,
+        },
+        run: {
+          complete: true
+        },
         logging: true,
-        uploadAttachments: true,
+        debug: true,
       }],
   ],
 };
