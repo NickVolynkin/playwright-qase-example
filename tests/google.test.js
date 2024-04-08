@@ -26,12 +26,12 @@ test.describe("Example tests", async () => {
     });
   });
 
-  // const people = ['Alice', 'Bob'];
-  // for (const name of people) {
-  //   test(`testing with ${name}`, async () => {
-  //     qase.id(3)
-  //     qase.parameters({'person': name})
-  //   });
-  // }
+  const people = ['Alice', 'Bob'];
+  for (const name of people) {
+    test(`testing with ${name}`, async () => {
+      qase.id(3)
+      qase.parameters({'person': name})
+    });
+  }
 
 })

@@ -11,13 +11,12 @@ const config = {
         fallback: 'report',
         testops: {
           project: 'PWR',
+          run: {
+            complete: true,
+          },
           uploadAttachments: true,
+          defect: false,
         },
-        run: {
-          title: 'example test run',
-          complete: true
-        },
-        logging: true,
         debug: true,
       }],
   ],
